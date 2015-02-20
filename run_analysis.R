@@ -43,4 +43,4 @@ colnames(completeSet) <- c("Activities", "Subjects",requiredFeatures$name)
 ## if not installed, use the install.packages("plyr") command and load it using library(plyr)
 ##
 tidySet <- ddply(mydd, .(Activities, Subjects), numcolwise(mean))
-write.table(tidySet, "UCI_HAR_Tidy_Data.txt", sep = "\t")
+write.table(tidySet, "UCI_HAR_Tidy_Data.txt", sep = "\t", row.name=FALSE)

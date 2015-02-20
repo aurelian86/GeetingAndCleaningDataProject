@@ -1,14 +1,14 @@
 ##
 ## read all the files here
 ##
-testSetData <- read.table("UCI HAR Dataset/test/X_test.txt", stringsAsFactors = FALSE)
-trainingSetData <- read.table("UCI HAR Dataset/train/X_train.txt", stringsAsFactors = FALSE)
-testActivitiesData <- read.table ("UCI HAR Dataset/test/y_test.txt", stringsAsFactors = FALSE)
-trainActivitiesData <- read.table ("UCI HAR Dataset/train/y_train.txt", stringsAsFactors = FALSE)
-testSubjectsData <- read.table ("UCI HAR Dataset/test/subject_test.txt", stringsAsFactors = FALSE)
-trainSubjectsData <- read.table ("UCI HAR Dataset/train/subject_train.txt", stringsAsFactors = FALSE)
-activitiesData <- read.table("UCI HAR Dataset/activity_labels.txt", stringsAsFactors = FALSE)
-featuresData <- read.table("UCI HAR Dataset/features.txt", stringsAsFactors = FALSE)
+testSetData <- read.table("test/X_test.txt", stringsAsFactors = FALSE)
+trainingSetData <- read.table("train/X_train.txt", stringsAsFactors = FALSE)
+testActivitiesData <- read.table ("test/y_test.txt", stringsAsFactors = FALSE)
+trainActivitiesData <- read.table ("train/y_train.txt", stringsAsFactors = FALSE)
+testSubjectsData <- read.table ("test/subject_test.txt", stringsAsFactors = FALSE)
+trainSubjectsData <- read.table ("train/subject_train.txt", stringsAsFactors = FALSE)
+activitiesData <- read.table("activity_labels.txt", stringsAsFactors = FALSE)
+featuresData <- read.table("features.txt", stringsAsFactors = FALSE)
 ##
 ## join data frames for the data set, activities and subjects
 ##
